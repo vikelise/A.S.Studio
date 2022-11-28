@@ -1,3 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .mainPhoto{
     border-radius: 256px 0px 0px 0px;
+}
+
+body{
+    background-image: url(img/Зерно_фон.png);
+}
+
+.header{
+    background: #623685;;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+
+.h1{
+    font-family: 'Minion Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 230px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.06em;
+        
+        color: #FFFFFF;
+        /* background-image: url(img/Фото_главная.png) */
+}
+.headerTextWhite{
+    font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 119%;
+        /* or 31px */
+    
+        letter-spacing: 0.105em;
+    
+        color: #F5F5F5;
+}
+
+.headerTextGreen{
+    font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 119%;
+        /* or 31px */
+    
+        letter-spacing: 0.105em;
+       color: #D8FF00;
+}
+
+.headerContener{
+    display: inline;
+}
+
+
+/*main*/
+.textButton{
+    font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 97.5%;
+        /* or 29px */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    
+        color: #000000;
+}
+.mainText{
+    font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 132%;
+        /* or 30px */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #000000;
+}
+
+.mainContener{
+    display:flex;
 }
