@@ -97,3 +97,63 @@ body{
 .mainContener{
     display:flex;
 }
+
+.cardText{
+    font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        letter-spacing: 0.01em;
+    
+        /* Black */
+    
+        color: #000024;
+}
+
+.cardName{
+    font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.01em;
+    
+        color: #7D7D7D;
+}
+
+/* footer */
+.footer{
+    background: rgba(118, 69, 156, 0.54);
+}
+
+.footerTextWhite{
+font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 176%;
+    /* identical to box height, or 32px */
+
+    text-align: center;
+    letter-spacing: 0.115em;
+
+    color: #FFFFFF;
+}
+
+.footerTextGreen{
+    font-family: 'Minion Pro';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 176%;
+        /* or 32px */
+    
+        letter-spacing: 0.115em;
+    
+        color: #D8FF00;
+}
