@@ -2,206 +2,314 @@
     margin: 0;
     padding: 0;
 }
-.mainPhoto{
+
+.mainPhoto {
     border-radius: 256px 0px 0px 0px;
 }
 
-body{
+body {
     background-image: url(img/Зерно_фон.png);
     font-family: 'Lato';
 }
 
-.header{
-    background: #623685;;
+.header {
+    background: #623685;
+    background-image: url(img/Шум\ фон.png);
+    min-height: 110vh;
 }
 
-.menu{
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.top-box {
     display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 40px;
-    
+    padding-top: 33px;
+    box-sizing: border-box;
+    min-width: 1110px;
+    /* padding-bottom: 33px; */
 }
 
-.h1{
-    font-family: 'Minion Pro';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 230px;
-        line-height: 100%;
-        text-align: center;
-        letter-spacing: -0.06em;
-        
-        color: #FFFFFF;
-        /* background-image: url(img/Фото_главная.png) */
-}
-.headerTextWhite{
-    font-family: 'Noto Serif';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 119%;
-        /* or 31px */
-    
-        letter-spacing: 0.105em;
-    
-        color: #F5F5F5;
+.menu {
+    max-width: 120px;
+    justify-content: space-between;
 }
 
-.headerTextGreen{
-    font-family: 'Noto Serif';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 119%;
-        /* or 31px */
-    
-        letter-spacing: 0.105em;
-       color: #D8FF00;
+.top_info {
+    /* margin-top: 80px; */
+    margin: 0 auto;
+    min-height: 750px;
+    align-items: center;
+    min-width: 1250px;
+    /* padding-top: 300px; */
+    /* flex-grow: 1; */
+    background-image: url(img/Фото\ главная.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.headerContener{
-    display: inline;
+.wrapper {
+    position: relative;
+    padding-top: 170px;
 }
 
+.upper_text {
+    padding-top: 60px;
+    margin-left: 1070px;
+}
+
+.top_title {
+    padding-top: 24px;
+    min-height: 180px;
+    /* align-items: center; */
+}
+
+.top_green_text {
+    list-style-type: none;
+    font-size: 24px;
+    color: #D8FF00;
+    line-height: 100%;
+    letter-spacing: 0.105em;
+}
+
+.bottom_text {
+    padding-top: 60px;
+    padding-left: 1070px;
+}
+
+.white_text {
+    list-style-type: none;
+    line-height: 119%;
+    letter-spacing: 0.105em;
+    font-size: 26px;
+    color: #F5F5F5;
+}
+
+.green_text {
+    list-style-type: none;
+    line-height: 119%;
+    letter-spacing: 0.105em;
+    font-size: 26px;
+    color: #D8FF00;
+}
 
 /*main*/
-.textButton{
-    font-family: 'Noto Serif';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 97.5%;
-        /* or 29px */
-    
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-    
-        color: #000000;
-}
-.mainText{
-    font-family: 'Lato';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 23px;
-        line-height: 132%;
-        /* or 30px */
-    
-        display: flex;
-        align-items: center;
-    
-        color: #000000;
+.text_links {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 70%;
+    color: #000000;
 }
 
-.mainContener{
-    display:flex;
+
+.links {
+    padding-top: 85px;
+    min-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.cardText{
-    font-family: 'Lato';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        /* or 150% */
-    
-        letter-spacing: 0.01em;
-    
-        /* Black */
-    
-        color: #000024;
+.item_links {
+    position: relative;
 }
 
-.cardName{
-    font-family: 'Lato';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
-    
-        letter-spacing: 0.01em;
-    
-        color: #7D7D7D;
-}
-
-/* footer */
-.footer{
-    background: rgba(118, 69, 156, 0.54);
-}
-
-.footerTextWhite{
-font-family: 'Minion Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 176%;
-    /* identical to box height, or 32px */
-
+.back_links {
+    background-color: #fff;
     text-align: center;
-    letter-spacing: 0.115em;
-
-    color: #FFFFFF;
+    line-height: 120%;
+    padding: 0 5px;
 }
 
-.footerTextGreen{
-    font-family: 'Minion Pro';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 176%;
-        /* or 32px */
-    
-        letter-spacing: 0.115em;
-    
-        color: #D8FF00;
+.description {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description_info {
+    padding-top: 120px;
+}
+
+.description_title {
+    max-width: 500px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 97.5%;
+    color: #000000;
+}
+
+.description_text {
+    max-width: 530px;
+    padding-top: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 23px;
+    line-height: 132%;
+
+    color: #000000;
+}
+
+.colortext {
+    font-family: 'Lato';
+    color: #76459C;
 }
 
 /* карточки */
+.card-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 64px;
+    left: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .cardTextContainer {
-    width: 298px;
-    padding-bottom: 10px;
     margin-left: 50px;
     margin-right: 50px;
     padding-left: 89px 2297px 855px 709px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column; 
-    height: 596px;
+    flex-direction: column;
     left: 50px;
-    
-}
-.card-box{
-    display: flex;
-    justify-content: center;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    left: 50px;
-
-
-}
-.cardText {
-    padding-top: 10px;
     background: #FFFFFF;
-    width: 298px;
-    height: 166px;
-    font-family: 'Lato';
+
+}
+
+.cardText {
+    padding-left: 20px;
+    max-width: 300px;
+    min-height: 170px;
+    padding-top: 45px;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-}
-.cardName {
 
- width: 164px;
-height: 24px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.01em;
-color: #7D7D7D;
+    letter-spacing: 0.01em;
+    color: #000024;
 }
+
+.cardName {
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 23px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #7D7D7D;
+}
+
+/* footer */
+.footer {
+    background: rgba(118, 69, 156, 0.54);
+}
+
+.footer_wrap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    /* flex-flow: column wrap; */
+}
+
+.footer_link {
+    text-decoration: none;
+}
+
+.footerTextGreen {
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 176%;
+
+    letter-spacing: 0.115em;
+
+    color: #D8FF00;
+}
+
+.footerTextWhite {
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 176%;
+
+    letter-spacing: 0.115em;
+
+    color: #FFFFFF;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_green {
+    padding-bottom: 15px;
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+
+    color: #D8FF00;
+}
+
+.vl {
+    border-left: 2px solid #D8FF00;
+    height: 185px;
+}
+
+/* .tags {
+    display: flex;
+    min-width: 170px;
+    justify-content: space-between;
+}
+
+.social_media {
+    display: flex;
+    min-width: 170px;
+    justify-content: space-between;
+}
+
+.map {
+    display: flex;
+    min-width: 170px;
+    justify-content: space-between;
+} */
